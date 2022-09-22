@@ -4,9 +4,6 @@ import org.junit.Test;
 
 public class Binary_Search_704 {
 
-
-
-
     public static int TestforBinary(int[] arr, int key){
      int L=0,R=arr.length-1;
      while (L<=R){
@@ -29,4 +26,5 @@ public class Binary_Search_704 {
 
         System.out.print(TestforBinary(arr, key));
     }
+
 }
