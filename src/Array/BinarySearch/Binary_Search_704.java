@@ -23,10 +23,17 @@ public class Binary_Search_704 {
 
         int[] arr=new int[]{-1,0,3,5,9,12};
         int key=9;
+
         int key1=10;
 
         System.out.print(TestforBinary(arr, key));
         System.out.print(TestforBinary(arr,key1));
+
+        int[] arr1=new int[]{-1,0,3,5,9,12};
+
+        System.out.print(TestforBinary(arr, key));
+        System.out.print(TestforBinary(arr1,key));
+
     }
 
 }
