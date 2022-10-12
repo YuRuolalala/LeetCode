@@ -1,5 +1,7 @@
 package String_;
 
+import org.junit.Test;
+
 public class Reverse_Words_in_a_String_151 {
     public String reverseWords (String s) {
         char[] arr=s.toCharArray();
@@ -26,5 +28,11 @@ public class Reverse_Words_in_a_String_151 {
             arr[x]=arr[y];
             arr[y]=temp;
         }
+    }
+
+    @Test
+    public void test(){
+        String a="hello world!   ";
+        System.out.println(reverseWords(a));
     }
 }
