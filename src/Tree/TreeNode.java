@@ -32,6 +32,17 @@ public class TreeNode {
         return rc;
     }
 
+    public void setVal(int val) {
+        this.val = val;
+    }
+
+    public void setLc(TreeNode lc) {
+        this.lc = lc;
+    }
+
+    public void setRc(TreeNode rc) {
+        this.rc = rc;
+    }
 
     @Override
     public boolean equals(Object o) {
